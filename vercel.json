@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "django_pelado/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "django_pelado/wsgi.py"
+      }
+    ]
+  }
+  
