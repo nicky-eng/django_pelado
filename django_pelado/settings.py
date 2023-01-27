@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-0!z7!_((h(n24gw06aq_xnc_*e)t3b_lwavzqjy0k8rzxeo3rh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-pelado.vercel.app']
+ALLOWED_HOSTS = ['django-pelado.vercel.app', '127.0.0.1']
 
 
 # Application definition
