@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-0!z7!_((h(n24gw06aq_xnc_*e)t3b_lwavzqjy0k8rzxeo3rh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-pelado.vercel.app']
 
 
 # Application definition
@@ -74,12 +74,7 @@ WSGI_APPLICATION = "django_pelado.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
+DATABASES = {}
 
 
 # Password validation
